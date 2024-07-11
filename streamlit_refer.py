@@ -21,10 +21,10 @@ from langchain.memory import StreamlitChatMessageHistory
 
 def main():
     st.set_page_config(
-    page_title="SK ENSIPIRE",
+    page_title="SK ENSPIRE",
     page_icon=":books:")
 
-    st.title("_전력특화 GPT ENSPIRE:red[민형 Chat]_ :books:")
+    st.title("전력특화 GPT ENSPIRE")
 
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
